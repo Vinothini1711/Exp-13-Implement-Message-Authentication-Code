@@ -1,8 +1,8 @@
-# Exp-13-Implement-Message-Authentication-Code
-# AIM:
+# Implement-Message-Authentication-Code
+## AIM:
 To generate and verify a Message Authentication Code (MAC) for ensuring the integrity and authenticity of a message using a simple XOR operation.
 
-# DESIGN STEPS:
+## DESIGN STEPS:
 Step 1:
 Input a secret key and a message from the user.
 
@@ -18,7 +18,7 @@ The user can input a received MAC, and the program verifies whether the received
 Step 5:
 The authenticity of the message is confirmed if the MACs match.
 
-# PROGRAM:
+## PROGRAM:
 ```
 #include <stdio.h>
 #include <string.h>
@@ -76,10 +76,10 @@ int main() {
     return 0;
 }
 ```
-# OUTPUT:
+## OUTPUT:
 
 ![Screenshot 2024-10-17 082149](https://github.com/user-attachments/assets/7e098461-4a03-4265-9e57-7e74654896ea)
 
 
-# RESULT:
+## RESULT:
 The program for generating and verifying a Message Authentication Code (MAC) was executed successfully, demonstrating the integrity and authenticity of the message through a simple XOR-based MAC.
